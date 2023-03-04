@@ -72,7 +72,7 @@ header { display: flex; align-items: center; }
     background-color: var(--primarycolorhover);
 }
 .moa-container-content-hero {
-    padding: 120px 0;
+    padding: 100px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -104,7 +104,7 @@ header { display: flex; align-items: center; }
     width: 100%;
     height: 594px;
 }
-.moa-section-abilities {
+.moa-section-abilities-and-project {
     color: #000000;
     display: flex;
     flex-direction: column;
@@ -113,7 +113,7 @@ header { display: flex; align-items: center; }
     padding: 30px 0;
     text-align: center;
 }
-.moa-section-abilities h2 {
+.moa-section-abilities-and-project h2 {
     margin-bottom: 48px;
 }
 .moa-abilities-grid {
@@ -164,4 +164,112 @@ header { display: flex; align-items: center; }
     font-size: 20px;
     line-height: 27px;
     padding: 5px 0px;
+}
+.moa-project {
+    padding: 24px 40px;
+}
+.moa-project img {
+    max-width: 220px;
+}
+.moa-project-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5px;
+}
+.moa-project-link a {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.moa-project-link img {
+    max-width: 21px;
+}
+.moa-project-title{
+    margin-top: 100px;
+    text-align: left;
+    margin-left: 0;
+}
+.moa-experience {
+    margin: 100px auto;
+}
+.moa-experience h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.moa-experience-job {
+    font-family: 'Montserrat';
+    font-style: normal;
+    border: 1px solid #D9D9D9;
+    max-width: 800px;
+    border-radius: 16px;
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.moa-experience-job img {
+    max-width: 48px;
+    margin-right: 20px;
+}
+.moa-experience-job h4 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 8px;
+}
+.moa-experience-job p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+.moa-experience-job p > strong {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px; 
+}
+.moa-can-help {
+    max-width: 440px;
+    text-align: center;
+    margin: 100px auto;
+}
+.moa-can-help h2 {
+    margin-bottom: 20px;
+}
+.moa-contact {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 200px;
+    padding-top: 24px;
+}
+.moa-contact img, .moa-contact p {
+    margin: 0;
+}
+.moa-contact img {
+   margin-right: 20px; 
+}
+footer {
+    background-color: var(--primarycolor);
+    padding: 48px 0;
+
+}
+.moa-footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1240px;
+}
+.moa-footer h4 {
+    color: #FFFFFF;
+    font-size: 24px;
+    letter-spacing: -0.015em;
+    line-height: 33px;
+    margin: 0;
+}
+.moa-footer .moa-img-social-media {
+    margin: 0;
+}
+.moa-footer .moa-img-social-media img {
+    filter: brightness(0) invert(1);
+    margin-right: 0;
 }
